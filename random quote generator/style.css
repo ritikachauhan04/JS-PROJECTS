@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 15px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.para{
+    margin-bottom: 0;
+}
+body{
+    background-color: grey;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background-color: aquamarine;
+    border: 2px solid black;
+    height: 350px;
+    width: 700px;
+    text-align: center;
+    border-radius: 10px;
+}
+#btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: beige;
+    margin: 50px auto;
+    font-size:20px;
+    transition: all .4s ease-in-out;
+}
+#btn:hover{
+    transform: scale(1.1);
+    
+}
+#output{
+    color:black;
+    font-size: 30px;
+    padding: 0 15px;
+}
